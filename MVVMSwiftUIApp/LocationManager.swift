@@ -2,7 +2,7 @@ import Foundation
 import CoreLocation
 
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
-    private let locationManager = CLLocationManager()
+    let locationManager = CLLocationManager()
     
     @Published var location: CLLocation? = nil
     @Published var status: CLAuthorizationStatus = .notDetermined
@@ -13,7 +13,8 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.requestWhenInUseAuthorization()
         self.locationManager.startUpdatingLocation()
-        print("Timestamp: \(String(describing: location?.timestamp))")
+//        location = CLLocation(latitude: 0.837152, longitude: 103.7227522)
+//        print("Timestamp: \(String(describing: location?.timestamp))")
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {

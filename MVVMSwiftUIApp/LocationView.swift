@@ -8,6 +8,7 @@ struct LocationView: View {
             if let location = locationManager.location {
                 Text("Latitude: \(location.coordinate.latitude)")
                 Text("Longitude: \(location.coordinate.longitude)")
+                Text("Timestamp: \(location.timestamp)")
             } else {
                 Text("Fetching location...")
             }
