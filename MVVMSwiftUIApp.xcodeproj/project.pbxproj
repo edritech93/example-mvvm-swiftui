@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D4E7DB682BFC7F7500D35F23 /* MVVMSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7DB672BFC7F7500D35F23 /* MVVMSwiftUIAppApp.swift */; };
-		D4E7DB6A2BFC7F7500D35F23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7DB692BFC7F7500D35F23 /* ContentView.swift */; };
 		D4E7DB6C2BFC7F7800D35F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E7DB6B2BFC7F7800D35F23 /* Assets.xcassets */; };
 		D4E7DB6F2BFC7F7800D35F23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4E7DB6E2BFC7F7800D35F23 /* Preview Assets.xcassets */; };
 		D4E7DB792BFC7F7800D35F23 /* MVVMSwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7DB782BFC7F7800D35F23 /* MVVMSwiftUIAppTests.swift */; };
 		D4E7DB832BFC7F7800D35F23 /* MVVMSwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7DB822BFC7F7800D35F23 /* MVVMSwiftUIAppUITests.swift */; };
 		D4E7DB852BFC7F7800D35F23 /* MVVMSwiftUIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7DB842BFC7F7800D35F23 /* MVVMSwiftUIAppUITestsLaunchTests.swift */; };
+		D4E7DB922BFC7F9200D35F23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7DB912BFC7F9200D35F23 /* User.swift */; };
+		D4E7DB942BFC7FA600D35F23 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7DB932BFC7FA600D35F23 /* UserViewModel.swift */; };
+		D4E7DB962BFC7FB700D35F23 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7DB952BFC7FB700D35F23 /* UserListView.swift */; };
+		D4E7DB9A2BFC8A5B00D35F23 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7DB992BFC8A5B00D35F23 /* LocationManager.swift */; };
+		D4E7DB9C2BFC8AE700D35F23 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7DB9B2BFC8AE700D35F23 /* LocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		D4E7DB642BFC7F7500D35F23 /* MVVMSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E7DB672BFC7F7500D35F23 /* MVVMSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMSwiftUIAppApp.swift; sourceTree = "<group>"; };
-		D4E7DB692BFC7F7500D35F23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D4E7DB6B2BFC7F7800D35F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4E7DB6E2BFC7F7800D35F23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4E7DB742BFC7F7800D35F23 /* MVVMSwiftUIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMSwiftUIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		D4E7DB7E2BFC7F7800D35F23 /* MVVMSwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMSwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E7DB822BFC7F7800D35F23 /* MVVMSwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMSwiftUIAppUITests.swift; sourceTree = "<group>"; };
 		D4E7DB842BFC7F7800D35F23 /* MVVMSwiftUIAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMSwiftUIAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4E7DB912BFC7F9200D35F23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D4E7DB932BFC7FA600D35F23 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		D4E7DB952BFC7FB700D35F23 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		D4E7DB992BFC8A5B00D35F23 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D4E7DB9B2BFC8AE700D35F23 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				D4E7DB672BFC7F7500D35F23 /* MVVMSwiftUIAppApp.swift */,
-				D4E7DB692BFC7F7500D35F23 /* ContentView.swift */,
 				D4E7DB6B2BFC7F7800D35F23 /* Assets.xcassets */,
 				D4E7DB6D2BFC7F7800D35F23 /* Preview Content */,
+				D4E7DB912BFC7F9200D35F23 /* User.swift */,
+				D4E7DB932BFC7FA600D35F23 /* UserViewModel.swift */,
+				D4E7DB952BFC7FB700D35F23 /* UserListView.swift */,
+				D4E7DB992BFC8A5B00D35F23 /* LocationManager.swift */,
+				D4E7DB9B2BFC8AE700D35F23 /* LocationView.swift */,
 			);
 			path = MVVMSwiftUIApp;
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E7DB6A2BFC7F7500D35F23 /* ContentView.swift in Sources */,
+				D4E7DB962BFC7FB700D35F23 /* UserListView.swift in Sources */,
+				D4E7DB9C2BFC8AE700D35F23 /* LocationView.swift in Sources */,
+				D4E7DB942BFC7FA600D35F23 /* UserViewModel.swift in Sources */,
+				D4E7DB9A2BFC8A5B00D35F23 /* LocationManager.swift in Sources */,
 				D4E7DB682BFC7F7500D35F23 /* MVVMSwiftUIAppApp.swift in Sources */,
+				D4E7DB922BFC7F9200D35F23 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +441,8 @@
 				DEVELOPMENT_TEAM = 77MH7DAV5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide better services even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide better services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -435,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.boilerplate.rn.MVVMSwiftUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boilerplate.rn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -454,6 +472,8 @@
 				DEVELOPMENT_TEAM = 77MH7DAV5Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide better services even when the app is in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide better services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.boilerplate.rn.MVVMSwiftUIApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boilerplate.rn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
